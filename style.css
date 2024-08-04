@@ -1,0 +1,45 @@
+/**FAZENDO UM RESET NA CONFIGURAÇÃO PADRÃO DO NAVEGADOR*/
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+/*tornando o background em preto*/
+body{
+    background: black;
+}
+/*centralizando os textos da nav que esta em uma lista*/
+#lista
+{
+    text-align: center;
+}
+/*definindo color, tornando a nav sem quebra de linhas com o inline e definindo uma margem direita*/ 
+#lista li
+{
+    color: aliceblue;
+    display: inline;
+    margin-right: 10px;
+}
+/*colocando uma animação de cores quando passa o mouse em cima do texto*/
+#lista li:hover 
+{
+    color: rgb(25, 0, 255)  ;
+}
+h1
+{
+    color: white;
+}
+/*tirando textos decorados*/
+#lista li a
+{
+    text-decoration: none;
+}
+#form label
+{
+    color: white;
+}
+p
+{
+    color: white;
+}
